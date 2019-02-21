@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		919116C41E7EBAB600E45A95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 919116C31E7EBAB600E45A95 /* main.m */; };
+		919116C71E7EBAB600E45A95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 919116C61E7EBAB600E45A95 /* AppDelegate.m */; };
+		919116CA1E7EBAB600E45A95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919116C91E7EBAB600E45A95 /* ViewController.m */; };
+		919116CD1E7EBAB700E45A95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919116CB1E7EBAB700E45A95 /* Main.storyboard */; };
+		919116CF1E7EBAB700E45A95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919116CE1E7EBAB700E45A95 /* Assets.xcassets */; };
+		919116D21E7EBAB700E45A95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919116D01E7EBAB700E45A95 /* LaunchScreen.storyboard */; };
+		919116DB1E7EE29500E45A95 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919116DA1E7EE29500E45A95 /* Social.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		919116BF1E7EBAB600E45A95 /* SocialNetworkingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialNetworkingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		919116C31E7EBAB600E45A95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		919116C51E7EBAB600E45A95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		919116C61E7EBAB600E45A95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		919116C81E7EBAB600E45A95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		919116C91E7EBAB600E45A95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		919116CC1E7EBAB700E45A95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		919116CE1E7EBAB700E45A95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		919116D11E7EBAB700E45A95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		919116D31E7EBAB700E45A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		919116DA1E7EE29500E45A95 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		919116BC1E7EBAB600E45A95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919116DB1E7EE29500E45A95 /* Social.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		919116B61E7EBAB500E45A95 = {
+			isa = PBXGroup;
+			children = (
+				919116C11E7EBAB600E45A95 /* SocialNetworkingApp */,
+				919116C01E7EBAB600E45A95 /* Products */,
+				919116D91E7EE29500E45A95 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		919116C01E7EBAB600E45A95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				919116BF1E7EBAB600E45A95 /* SocialNetworkingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		919116C11E7EBAB600E45A95 /* SocialNetworkingApp */ = {
+			isa = PBXGroup;
+			children = (
+				919116C51E7EBAB600E45A95 /* AppDelegate.h */,
+				919116C61E7EBAB600E45A95 /* AppDelegate.m */,
+				919116C81E7EBAB600E45A95 /* ViewController.h */,
+				919116C91E7EBAB600E45A95 /* ViewController.m */,
+				919116CB1E7EBAB700E45A95 /* Main.storyboard */,
+				919116CE1E7EBAB700E45A95 /* Assets.xcassets */,
+				919116D01E7EBAB700E45A95 /* LaunchScreen.storyboard */,
+				919116D31E7EBAB700E45A95 /* Info.plist */,
+				919116C21E7EBAB600E45A95 /* Supporting Files */,
+			);
+			path = SocialNetworkingApp;
+			sourceTree = "<group>";
+		};
+		919116C21E7EBAB600E45A95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				919116C31E7EBAB600E45A95 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		919116D91E7EE29500E45A95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				919116DA1E7EE29500E45A95 /* Social.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		919116BE1E7EBAB600E45A95 /* SocialNetworkingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919116D61E7EBAB700E45A95 /* Build configuration list for PBXNativeTarget "SocialNetworkingApp" */;
+			buildPhases = (
+				919116BB1E7EBAB600E45A95 /* Sources */,
+				919116BC1E7EBAB600E45A95 /* Frameworks */,
+				919116BD1E7EBAB600E45A95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialNetworkingApp;
+			productName = SocialNetworkingApp;
+			productReference = 919116BF1E7EBAB600E45A95 /* SocialNetworkingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		919116B71E7EBAB500E45A95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = alcoderithm;
+				TargetAttributes = {
+					919116BE1E7EBAB600E45A95 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = R869Q8685N;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 919116BA1E7EBAB500E45A95 /* Build configuration list for PBXProject "SocialNetworkingApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 919116B61E7EBAB500E45A95;
+			productRefGroup = 919116C01E7EBAB600E45A95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				919116BE1E7EBAB600E45A95 /* SocialNetworkingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		919116BD1E7EBAB600E45A95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919116D21E7EBAB700E45A95 /* LaunchScreen.storyboard in Resources */,
+				919116CF1E7EBAB700E45A95 /* Assets.xcassets in Resources */,
+				919116CD1E7EBAB700E45A95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		919116BB1E7EBAB600E45A95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919116CA1E7EBAB600E45A95 /* ViewController.m in Sources */,
+				919116C71E7EBAB600E45A95 /* AppDelegate.m in Sources */,
+				919116C41E7EBAB600E45A95 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		919116CB1E7EBAB700E45A95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				919116CC1E7EBAB700E45A95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		919116D01E7EBAB700E45A95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				919116D11E7EBAB700E45A95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		919116D41E7EBAB700E45A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		919116D51E7EBAB700E45A95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		919116D71E7EBAB700E45A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R869Q8685N;
+				INFOPLIST_FILE = SocialNetworkingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alcoderithm.SocialNetworkingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		919116D81E7EBAB700E45A95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R869Q8685N;
+				INFOPLIST_FILE = SocialNetworkingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alcoderithm.SocialNetworkingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		919116BA1E7EBAB500E45A95 /* Build configuration list for PBXProject "SocialNetworkingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919116D41E7EBAB700E45A95 /* Debug */,
+				919116D51E7EBAB700E45A95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		919116D61E7EBAB700E45A95 /* Build configuration list for PBXNativeTarget "SocialNetworkingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919116D71E7EBAB700E45A95 /* Debug */,
+				919116D81E7EBAB700E45A95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 919116B71E7EBAB500E45A95 /* Project object */;
+}

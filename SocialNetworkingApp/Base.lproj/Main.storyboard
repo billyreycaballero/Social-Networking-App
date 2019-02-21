@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0zy-bM-NNP"/>
+                        <viewControllerLayoutGuide type="bottom" id="h5Y-v9-zCe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="ygh-Sa-HWf">
+                                <rect key="frame" x="16" y="46" width="343" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="E2V-rq-JFZ"/>
+                                    <constraint firstAttribute="width" priority="750" constant="343" id="MFT-fT-cph"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem systemItem="action" id="xHh-7V-y2C">
+                                        <color key="tintColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="postToTwitter:" destination="BYZ-38-t0r" id="Act-ye-qhL"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="action" id="OeQ-Ih-tuV">
+                                        <color key="tintColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="postToFacebook:" destination="BYZ-38-t0r" id="8QK-Hr-XAg"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="action" id="gem-Of-U85">
+                                        <color key="tintColor" red="0.22311697929999999" green="0.70671399109999999" blue="0.04019644662" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="postDependOnChoices:" destination="BYZ-38-t0r" id="6iU-xs-5Dc"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="action" id="SRE-dF-dmq">
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="postToNothing:" destination="BYZ-38-t0r" id="Dk2-SD-JES"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="barTintColor" red="0.057328871511782876" green="0.19878236746728156" blue="0.56182295083999634" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </toolbar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="v8Q-DX-ikN">
+                                <rect key="frame" x="16" y="248" width="343" height="139"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="139" id="O9n-gd-rt9"/>
+                                    <constraint firstAttribute="width" priority="750" constant="343" id="XCC-pS-UVw"/>
+                                </constraints>
+                                <string key="text">facebook facebook facebook facebook! 
+
+posted out from my IOS app simulator</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="TEg-Se-dLR">
+                                <rect key="frame" x="16" y="101" width="343" height="139"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" priority="750" constant="343" id="8MK-dr-Izp"/>
+                                    <constraint firstAttribute="height" constant="139" id="kbv-Ev-R13"/>
+                                </constraints>
+                                <string key="text">twitter twitter twitter twitter! 
+
+posted out from my IOS app simulator</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KWV-Ke-wdB">
+                                <rect key="frame" x="16" y="395" width="343" height="139"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="139" id="0DM-bR-LjR"/>
+                                    <constraint firstAttribute="width" priority="750" constant="343" id="JZT-3m-cbN"/>
+                                </constraints>
+                                <string key="text">twitter facebook twitter facebook! 
+
+posted out from my IOS app simulator</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="h5Y-v9-zCe" firstAttribute="top" secondItem="KWV-Ke-wdB" secondAttribute="bottom" priority="750" constant="133" id="2rn-x8-gek"/>
+                            <constraint firstItem="TEg-Se-dLR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="3Mm-5G-AX1"/>
+                            <constraint firstItem="KWV-Ke-wdB" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="AnW-eD-6n4"/>
+                            <constraint firstItem="KWV-Ke-wdB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Dsk-KC-bn8"/>
+                            <constraint firstItem="v8Q-DX-ikN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="EaB-Oz-9fr"/>
+                            <constraint firstItem="ygh-Sa-HWf" firstAttribute="top" secondItem="0zy-bM-NNP" secondAttribute="bottom" constant="26" id="N9I-zK-uaA"/>
+                            <constraint firstItem="v8Q-DX-ikN" firstAttribute="top" secondItem="TEg-Se-dLR" secondAttribute="bottom" constant="8" id="OLl-c9-pRg"/>
+                            <constraint firstItem="ygh-Sa-HWf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="aU3-hp-aAv"/>
+                            <constraint firstItem="TEg-Se-dLR" firstAttribute="top" secondItem="ygh-Sa-HWf" secondAttribute="bottom" constant="11" id="gX2-TU-4dj"/>
+                            <constraint firstItem="TEg-Se-dLR" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="gk2-XT-Z01"/>
+                            <constraint firstItem="ygh-Sa-HWf" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="rRi-Lm-OaM"/>
+                            <constraint firstItem="KWV-Ke-wdB" firstAttribute="top" secondItem="v8Q-DX-ikN" secondAttribute="bottom" constant="8" id="u18-vT-JpL"/>
+                            <constraint firstItem="v8Q-DX-ikN" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="xqj-VF-AwW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="chooseToPost" destination="KWV-Ke-wdB" id="ZRH-eR-D3M"/>
+                        <outlet property="facebookPost" destination="v8Q-DX-ikN" id="vge-0K-eRR"/>
+                        <outlet property="twitterPost" destination="TEg-Se-dLR" id="qZv-Iy-Rl8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.60000000000001" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+</document>
